@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/chats"
+        android:enabled="true"
+        android:icon="@drawable/chaticon"
+        android:title="Chats"
+        android:visible="true" />
+    <item
+        android:id="@+id/status_row"
+        android:enabled="true"
+        android:icon="@drawable/statusimage"
+        android:title="Status"
+        android:visible="true" />
+    <item
+        android:id="@+id/call"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@drawable/call"
+        android:title="Calls"
+        android:visible="true" />
+</menu>
